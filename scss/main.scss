@@ -1,0 +1,42 @@
+@import "./btn/btn-small.scss";
+@import "./btn/btn-large.scss";
+@import "./btn/btn-medium.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+  padding: 0 50px;
+  height: 100vh;
+  .section {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 20vh;
+    padding: 20px;
+    border-style: solid;
+  }
+  .section-2 {
+    border-style: solid;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    height: 15vh;
+    padding: 0px;
+  }
+  .section-3 {
+    border-style: solid;
+    display: flex;
+    flex-direction: initial;
+    width: 50%;
+    height: 10vh;
+    padding: 70px;
+  }
+}

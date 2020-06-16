@@ -1,0 +1,19 @@
+.medium {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  padding: 0;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  border: none; }
+
+.medium:hover {
+  background: radial-gradient(circle, #eeaeca 80%, #94bbe9 100%);
+  outline: none;
+  border: none; }
+
+.medium:active {
+  outline: none;
+  border: none;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%); }
+
+/*# sourceMappingURL=btn-medium.css.map */

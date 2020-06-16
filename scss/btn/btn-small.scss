@@ -1,0 +1,23 @@
+$widthSmall: 100px;
+$heightSmall: 30px;
+
+.main {
+  .small {
+    width: $widthSmall;
+    height: $heightSmall;
+    font-size: 20px;
+    padding: 0;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border: none;
+  }
+  .small:hover {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 80%, rgba(148, 187, 233, 1) 100%);
+    outline: none;
+    border: none;
+  }
+  .small:active {
+    outline: none;
+    border: none;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  }
+}
