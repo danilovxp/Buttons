@@ -1,0 +1,80 @@
+$widthSmall: 100px;
+$heightSmall: 30px;
+
+$widthMeidum: 200px;
+$heightMedium: 50px;
+
+$widthLarge: 300px;
+$heightLarge: 60px;
+
+$colorOfButton: linear-gradient(
+  90deg,
+  rgba(8, 3, 92, 1) 0%,
+  rgba(52, 74, 241, 1) 18%,
+  rgba(0, 212, 255, 1) 59%
+);
+
+$colorOfButtonHover: linear-gradient(
+  0deg,
+  rgba(34, 193, 195, 1) 0%,
+  rgba(197, 193, 255, 1) 100%
+);
+
+.btn-size-small {
+  width: $widthSmall;
+  height: $heightSmall;
+  font-size: 20px;
+  padding: 0;
+  background: $colorOfButton;
+  border: none;
+}
+
+.btn-size-small:hover {
+  background: $colorOfButtonHover;
+  outline: none;
+  border: none;
+}
+
+.btn-size-small:active {
+  outline: none;
+  border: none;
+  background: $colorOfButton;
+}
+
+.btn-size-medium {
+  width: $widthMeidum;
+  height: $heightMedium;
+  font-size: 20px;
+  padding: 0;
+  background: $colorOfButton;
+  border: none;
+}
+.btn-size-medium:hover {
+  background: $colorOfButtonHover;
+  outline: none;
+  border: none;
+}
+.btn-size-medium:active {
+  outline: none;
+  border: none;
+  background: $colorOfButton;
+}
+
+.btn-size-large {
+  width: $widthLarge;
+  height: $heightLarge;
+  font-size: 20px;
+  padding: 0;
+  background: $colorOfButton;
+  border: none;
+}
+.btn-size-large:hover {
+  background: $colorOfButtonHover;
+  outline: none;
+  border: none;
+}
+.btn-size-large:active {
+  outline: none;
+  border: none;
+  background: $colorOfButton;
+}
